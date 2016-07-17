@@ -8,8 +8,9 @@ GPX file modifier utility
  - Run the empty app on your device
  - `Debug` menu -> `Simulate Location` -> `current` (you need to do this each time, else the Apple script doesn't work)
  - Open `updateXcodeLocSim` and run it. It will complain about settings, adjust them.
- - Open `walker`, a new terminal window will appear and now you can move arround with the WASD keys.
- 
+ - Open `walker`, a new terminal window will appear and now you can move arround with the `WASD` keys.
+ - Press `q` to exit.
+
 ### Optional Steps :
 
  - Download Enjoyable : https://yukkurigames.com/enjoyable/

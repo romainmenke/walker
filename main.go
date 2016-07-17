@@ -27,6 +27,7 @@ const (
 
 var (
 	gpx          string
+	currentDir   string
 	longitudeStr string
 	longitude    float64
 	latitudeStr  string
@@ -41,8 +42,8 @@ func main() {
 	if err != nil {
 		fmt.Println(err)
 	}
-	exec = strings.TrimSuffix(exec, "walker")
-	gpx = fmt.Sprintf("%slocation/current.gpx", exec)
+	currentDir = strings.TrimSuffix(exec, "walker")
+	gpx = fmt.Sprintf("%slocation/current.gpx", currentDir)
 
 	err = readLocationFromGPX()
 	if err != nil {
@@ -177,7 +178,7 @@ func save(latitude string, longitude string) {
 
 func update() {
 
-	cmd := exec.Command("osascript", "updateXcodeLocSim.app")
+	cmd := exec.Command("osascript", currentDir+"updateXcodeLocSim.app")
 	var out bytes.Buffer
 	cmd.Stdout = &out
 	cmd.Run()

@@ -28,5 +28,6 @@ GPX file modifier utility
 
 ### Disclaimer :
 
-This is a serious tool for testing mapping application, don't use it to cheat in games like Pokemon GO.
+This is a serious tool for testing mapping applications, don't use it to cheat in games like Pokemon GO.
 Spoofing your location on iOS devices should only be used for testing. ;-) 
+Don't play Pokemon Go from your couch.

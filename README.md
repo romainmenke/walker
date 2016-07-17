@@ -7,7 +7,7 @@ GPX file modifier utility
  - Open the Xcode project
  - Run the empty app on your device
  - `Debug` menu -> `Simulate Location` -> `current` (you need to do this each time, else the Apple script doesn't work)
- - Open `updateXcodeLocSim` and run it. It will complain about settings, adjust them.
+ - Open `updateXcodeLocSim` and run it. It will complain about settings, adjust them. (you only need to do this once)
  - Open `walker`, a new terminal window will appear and now you can move arround with the `WASD` keys.
  - Press `q` to exit.
 
@@ -16,3 +16,8 @@ GPX file modifier utility
  - Download Enjoyable : https://yukkurigames.com/enjoyable/
  - Connect a controller (PS3 bindings are also in the repo)
  - Move arround with the arrow keys
+
+### Disclaimer :
+
+This is a serious tool for testing mapping application, don't use it to cheat in games like Pokemon GO.
+Spoofing your location on iOS devices should only be used for testing. ;-) 

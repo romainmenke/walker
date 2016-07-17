@@ -5,6 +5,7 @@ GPX file modifier utility
 
  - Download this repo
  - Open the Xcode project
+ - Set the `lon` and `lat` found in `current.gpx` to a location of your choosing.
  - Run the empty app on your device
  - `Debug` menu -> `Simulate Location` -> `current` (you need to do this each time, else the Apple script doesn't work)
  - Open `updateXcodeLocSim` and run it. It will complain about settings, adjust them. (you only need to do this once)
@@ -16,6 +17,14 @@ GPX file modifier utility
  - Download Enjoyable : https://yukkurigames.com/enjoyable/
  - Connect a controller (PS3 bindings are also in the repo)
  - Move arround with the arrow keys
+
+### Controls :
+
+ - `w` -> Move forwards
+ - `a` -> Turn left
+ - `d` -> Turn right
+ - `s` -> Turn arround
+ - `q` -> exit
 
 ### Disclaimer :
 
